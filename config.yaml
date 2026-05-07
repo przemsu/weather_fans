@@ -1,0 +1,15 @@
+urls:
+  stadiums_teams: 'https://www.transfermarkt.pl/betclic-1-liga/stadien/wettbewerb/PL2/plus/1'
+  matches_attendance: 'http://www.90minut.pl/liga/1/liga14073.html'
+
+scraping_headers:
+  user: 'user'
+  browser: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+
+raw_files:
+  stadium_teams_path: './data/raw/stadiums_teams.html'
+  matches_attendance_path: './data/raw/matches_attendance.html'
+
+processed_files:
+  stadium_teams_path: './data/processed/stadiums_teams.parquet'
+  matches_attendance_path: './data/processed/matches_attendance.parquet'
